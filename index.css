@@ -1,3 +1,15 @@
+html {
+    box-sizing: border-box;
+  }
+  h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
 /* posizionare elementi al centro con flex box */
 body{
     margin: 0;
@@ -9,9 +21,6 @@ body{
     justify-content:center;
     align-items:center;
 }
-html {
-    box-sizing: border-box;
-  }
 
 /* inizio style card */
 .card{
@@ -28,11 +37,15 @@ html {
     max-width: 100%;
     border-radius:10px;}
 .card h2{
+    font-weight: 600;
+    font-size: 1.5em;
     margin-top: 0.7em;
     margin-bottom: 0.7em;
     color: #212e48;
 }
 .card p{
+    font-weight: 400;
+    font-size: 1em;
     color: #848d9c;
     margin-bottom: 0.7em;
 }
@@ -42,7 +55,7 @@ html {
 
 /* Footer style */
 .attribution{
-    font-size: 11px;
+    font-size: 0.8em;
 }    
 .attribution a{
     color: hsl(228, 45%, 44%);
