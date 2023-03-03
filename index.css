@@ -3,19 +3,21 @@ body{
     margin: 0;
     padding: 0;
     background-color: #d6e1f0;
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:center;
 }
+html {
+    box-sizing: border-box;
+  }
 
 /* inizio style card */
 .card{
     margin: 3em;
     background-color: #ffffff;
-    font-family: rubik;
+    font-family: "Outfit";
     text-align: center;
     max-width: 19em;
     padding: 1em;
