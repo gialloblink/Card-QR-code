@@ -37,6 +37,8 @@ body{
     max-width: 100%;
     border-radius:10px;}
 .card h2{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     font-weight: 600;
     font-size: 1.5em;
     margin-top: 0.7em;
@@ -44,6 +46,8 @@ body{
     color: #212e48;
 }
 .card p{
+    margin-left: 1em;
+    margin-right: 1em;
     font-weight: 400;
     font-size: 1em;
     color: #848d9c;
